@@ -36,8 +36,7 @@ function Register() {
     const registerUser = async () => {
 
         try {
-
-            const response = await API.post("/users", user);
+            const response = await API.post("/api/users", user);
 
             console.log(response.data);
 

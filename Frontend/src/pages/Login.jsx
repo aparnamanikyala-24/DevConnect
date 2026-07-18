@@ -10,7 +10,7 @@ function Login() {
 
         try {
 
-            const response = await API.get("/users");
+            const response = await API.get("/api/users");
 
             const user = response.data.find(
                 (u) => 
